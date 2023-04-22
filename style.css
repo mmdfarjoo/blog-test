@@ -1,0 +1,247 @@
+
+    html{
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    
+    }
+    .bodys {
+        margin: 10px;
+        flex: 0 1 auto;
+        align-self: auto;
+        width: 100%;
+        max-width: 75%;
+
+
+
+
+    }
+
+.head{
+    
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.sidebar{
+    transition: 0.5s;
+}
+
+
+.sidebar:hover{
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px ;
+}
+
+
+
+
+
+.head:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px ;
+}
+
+
+
+
+.head>div{
+    display: flex;
+    justify-content:space-around;
+    margin: 5%;
+    
+
+}
+
+.head>div>div{
+    margin: 5%;
+}
+
+.head>div>img{
+    width: 10vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+}
+
+
+
+
+.head-con{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    
+}
+
+
+ul{
+    text-align: center;
+    
+}
+li{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: 25px;
+    transition: 0.5s;
+
+    
+}
+
+a:hover{
+    transition: 0.5s;
+    color: rgba(32, 33, 31, 0.595);
+    /* border-bottom:1px solid black ; */
+}
+
+
+
+
+
+
+header>div{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    
+}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.post{
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+    border-radius: 20px;
+    width: 75%;
+    transition: 0.5s;
+    
+
+}
+
+
+.post:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px ;
+}
+
+
+
+
+
+.img-post{
+    float: left;
+    width: 35%;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+
+.text-post{
+    margin: 20px;
+    height: 65%
+}
+.text-post>h2{
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+
+.footer-post{
+    margin: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px ;
+
+}
+.footer-post>div{
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+.aside{
+
+    margin-top: 15px;
+    width: 20%;
+
+}
+.aside-bar{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px ;
+    padding: 30px;
+    height: 53%;
+}
+
+.aside>img{
+    border-radius: 100px;
+    margin: 10px;
+    width: 10vw;
+    position: relative;
+    left: 10%;
+    box-shadow: 0px 0px 25px ;
+    transition: 0.5s;
+
+
+    
+}
+
+.aside>img:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 30px ;
+}
+
+
+
+.aside-bar>div{
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px;
+    transition: 0.5s;
+
+}
+
+
+.aside-bar:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 25px ;
+}
+
+
+footer{
+    border-radius: 10px;
+    margin: 15px;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px ;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+
+footer:hover{
+    box-shadow: 0px 10px 10px ;
+    transition: 0.5s;
+}
